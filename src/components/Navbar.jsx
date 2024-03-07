@@ -22,17 +22,16 @@ import { useState, useEffect } from 'react';
 const Navbar = () => {
     const cartsize = useSelector((state) => state.cart.cart)
 
-
     return (
         <div className='fixed z-50  left-0 right-0 p-0 bg-white '>
-            <div className=' relative  flex items-center justify-between h-[89px] w-full shadow-sm border-b-[1px] px-[24px] '>
+            <div className=' relative  flex items-center justify-between h-[89px] w-full shadow-sm border-b-[1px]  '>
                 <Link to='/'>
-                    <div className='flex items-center gap-1' >
-                        <div className='logo'>
-                            <img className='w-10 ' src={logo} alt="" />
+                    <div className='flex items-center gap-1'>
+                        <div className='logo hidden sm:block md:block'>
+                            <img className='w-10' src={logo} alt="" />
                         </div>
                         <div>
-                            <p className=' hidden text-[2vw] font-serif text-red-500 font-bold sm:block'>airbnb</p>
+                            <p className='text-[2vw] font-serif text-red-500 font-bold sm:block md:block'>airbnb</p>
                         </div>
                     </div>
                 </Link>

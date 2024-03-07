@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Kraftbase - Frontend engineer assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an Airbnb clone with a responsive design that allows users to access it on any device. It features a dynamic map using the Google Maps API. State management is handled using Redux Toolkit, allowing users to add favorite hotels to a list and remove them from the cart. Additionally, there is a toggle switch for mobile view.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Responsive design for cross-device compatibility
 
-### `npm start`
+- Dynamic map integration using Google Maps API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- State management with Redux Toolkit
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Ability to add hotels to a favorite list
 
-### `npm test`
+- Remove hotels from the favorite list
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Toggle switch for mobile view
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- HTML5
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- CSS3
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- JavaScript
 
-### `npm run eject`
+- React.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Redux Toolkit
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Google Maps API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Open the application on your preferred browser.
 
-## Learn More
+- Explore the map and search for hotels.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Add hotels to your favorite list by clicking on the heart icon.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Remove hotels from the favorite list by clicking on the remove button.
 
-### Code Splitting
+- Use the toggle switch for mobile view.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##
 
-### Analyzing the Bundle Size
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install my-project with npm
 
-### Making a Progressive Web App
+```bash
+  npm install
+  cd   tastybites
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  npm run start
+```
 
-### Advanced Configuration
+## Challenges
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- i was faced problems in responsiveness in medium and small devices at a same time need to show both map and list of hotels so used z-index its a good approach to solved problem
 
-### Deployment
+- i was bit issue in handle the state management library redux toolkit everything work properly but when user click on multiple times on same button it will show in cart page but it not a good approach to handle the problem so used the some validation to handle the product cart
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Deployment
 
-### `npm run build` fails to minify
+To deploy this project run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+  npm run deploy
+```
